@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=5.6",
+        "php": ">=7.0.8",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
@@ -48,14 +48,29 @@
         "drupal/smart_trim": "^1.1",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
+        "drupal/xmlsitemap": "^1.0@alpha",
         "drush/drush": "^9.0.0",
-        "vlucas/phpdotenv": "^2.4",
-        "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
+        "webflo/drupal-core-strict": "^8",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev": "^8.7.0"
+        "behat/behat": "3.*",
+        "behat/mink": "^1.7",
+        "behat/mink-extension": "^2.2",
+        "behat/mink-goutte-driver": "^1.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "drupal/coder": "^8.3.1",
+        "drupal/devel": "^2.1",
+        "drupal/drupal-extension": "^3.1",
+        "drupal/log_stdout": "^1.1",
+        "drupal/search_kint": "^1.0",
+        "drupal/stage_file_proxy": "^1.0@beta",
+        "jcalderonzumba/gastonjs": "^1.0.2",
+        "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
+        "mikey179/vfsstream": "^1.2",
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^3.4.0",
+        "symfony/css-selector": "^2.8"
     },
     "conflict": {
         "drupal/drupal": "*"
